@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component Should be snapshot 1`] = `
+<div
+  class="container content"
+  data-testid="home-page"
+>
+  <div
+    class="card-content"
+  />
+</div>
+`;

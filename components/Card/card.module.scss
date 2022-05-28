@@ -1,0 +1,38 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .title {
+    color: white;
+    background-color: #5077cd;
+    padding: 16px;
+    height: 50px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  .detail {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d7dddb;
+    padding: 16px;
+    &:last-child {
+      border: none;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  .link {
+    color: dimgray;
+  }
+}
