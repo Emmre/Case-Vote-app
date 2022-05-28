@@ -6,7 +6,7 @@ import { postData } from "services";
 import { IChoice, IQuestion } from "types";
 
 const Form: FC<IChoice> = () => {
-  const addQuestion = async (e) => {
+  const addQuestion = async (e: any) => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     let question = formData.get("question");

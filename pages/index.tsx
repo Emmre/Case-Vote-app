@@ -10,7 +10,7 @@ const Home: FC<IProps> = ({ res }) => {
       <Form />
       <div className="card-content">
         {res?.map((item, idx: number) => {
-          return <Card item={item} redirect key={idx} />;
+          return <Card item={item} key={idx} />;
         })}
       </div>
     </div>

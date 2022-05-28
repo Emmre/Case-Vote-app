@@ -22,5 +22,5 @@ export interface IProps {
 
 export interface ICardProps {
   item: IData | any;
-  redirect?: boolean | any;
+  detailPage?: boolean | any;
 }
