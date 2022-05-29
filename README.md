@@ -23,7 +23,7 @@ Open http://localhost:3000 with your browser to see the result.
 
 
 ## 🚀 About Me
-Emre Saraç (it's me!) is a Frontend developer. I code since 2019. I have a big motivation to learn more, especially about React, Svelte, Vuejs and GraphQL.
+Emre Saraç (it's me!) is a Frontend developer. I code since 2019. I have a big motivation to learn more, especially about React, NextJS, NodeJS and Golang.
 
 
 ## Feedback
