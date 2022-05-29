@@ -4,14 +4,6 @@
 A poll/voting app where you can ask people questions and get answers.
 
 
-## Documentation
-
-You can see the components used in the project in the Component folder.   
-The Page folder contains the homepage and the detail page.   
-In the service folder, there are requests coming from the API and sent to the API.  
-In the Types folder, there are our interface types.
-
-
 ## Installation
 
 Install my-project with npm
